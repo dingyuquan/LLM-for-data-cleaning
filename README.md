@@ -5,8 +5,11 @@ This project fouses on utilizing LLM for data cleaning based on Movies datasetï¼
 
 ## Dependencies
 Python 3.8+
+
 openai 1.5.72
+
 pandas 2.0.3
+
 tqdm 4.66.1
 
 ## File description
