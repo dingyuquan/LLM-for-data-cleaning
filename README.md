@@ -19,7 +19,7 @@ Truncate and generate baseline dataset and introduce errors.
 
 **clean_data.py**   
 
-Correct errors we introduced using GPT-4o-mini and evaluate rhe result.
+Correct errors we introduced using GPT-4o-mini and evaluate the result.
 
 **movies.csv**  
 
