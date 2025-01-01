@@ -3,7 +3,7 @@ import random
 import re
 
 # Modify error rate here
-PROB_OF_ERROR = 0.5
+PROB_OF_ERROR = 0.8
 
 # Load dataset from CSV file
 df = pd.read_csv("movies.csv")
@@ -12,7 +12,7 @@ random.seed(42)
 # Sample 2000 rows from the dataset
 df = df.sample(n=2000, random_state=42)
 # Fill empty fields in specific columns, no empty row in ONE-LINE column
-df["GENRE"].fillna("None", inplace=True)
+df["GENRE"].fillna("none", inplace=True)
 df["RATING"].fillna(0.0, inplace=True)
 
 # Generate gold_truth_dataset
